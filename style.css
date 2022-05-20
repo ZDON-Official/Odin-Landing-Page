@@ -46,7 +46,7 @@ a {
     text-decoration: none;
 }
 
-.hero {
+.hero, .footer {
     background-color: #1f2937;
 }
 
@@ -220,3 +220,21 @@ button {
 .call-sign-up {
     border: 2px solid white;
 }
+
+/* For footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    text-align: center;
+}
+
+/*
+    todo - the text in hero body should not hae any gap between text and subtext
+*/
