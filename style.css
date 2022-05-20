@@ -142,3 +142,81 @@ button {
     text-align: center;
     color: #a7a7a7;
 }
+
+/* For quote section*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+    /* border: 2px solid red; */
+}
+
+.quote-text {
+    font-size: 36px;
+    /* font-weight: light italic; */
+    color: #1f2937;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    flex: 1;
+    max-width: 1000px;
+    /* border: 2px solid red; */
+}
+
+.quote-author {
+    font: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+}
+
+
+
+
+
+/* For call to action section*/
+.call-to-action {
+    display: flex;
+    padding: 100px 150px;
+    align-items: center;
+    justify-content: center;
+
+
+    /* border: 2px solid red; */
+}
+
+.call-container {
+    padding: 50px 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    max-width: 800px;
+    flex: 1;
+
+    display: flex;
+    justify-content: space-between;
+
+
+
+    /* border: 2px solid red; */
+}
+
+.call-title,
+.call-sign-up {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.call-title {
+    font-weight: bold;
+}
+
+.call-subtext {
+    font-weight: normal;
+}
+
+.call-sign-up {
+    border: 2px solid white;
+}
